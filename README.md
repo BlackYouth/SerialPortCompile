@@ -3,5 +3,5 @@
 修改C层代码，读取数据时设置超时时间<br>
 java 调用示例：
 ```
-serialPort.readData(outputData, outTime);
+serialPort.readData(outputData, 500);
 ```
