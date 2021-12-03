@@ -1,3 +1,7 @@
 # SerialPortCompile
-## 串口通信读取超时
-修改官方串口通信代码，读取数据增加超时时间。
+## 串口通信读取超时时间
+修改C层代码，读取数据时设置超时时间<br>
+java 调用示例：
+```
+serialPort.readData(outputData, outTime);
+```
